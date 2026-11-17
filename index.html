@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Vibe Fest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation links take visitors to each part of the page -->
+    <header>
+        <h2>Campus Vibe</h2>
+        <nav>
+            <a href="#events">Events</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#register">Register</a>
+        </nav>
+    </header>
+
+    <!-- Main heading and basic fest details -->
+    <section class="hero">
+        <h1>Campus Vibe Fest 2026</h1>
+        <p>Music, games, creativity and lots of fun!</p>
+        <p>28 November | College Campus, Pune</p>
+        <a class="button" href="#register">Join the Fest</a>
+    </section>
+
+    <!-- Five activities required by the assignment -->
+    <section id="events">
+        <h2>Our Events</h2>
+        <div class="events">
+            <div><h3>Music Show</h3><p>Enjoy live music and singing.</p><small>10 AM - Main Stage</small></div>
+            <div><h3>Dance Battle</h3><p>Show your best dance moves.</p><small>11 AM - Open Ground</small></div>
+            <div><h3>Code Sprint</h3><p>Solve fun coding questions.</p><small>12 PM - Computer Lab</small></div>
+            <div><h3>Gaming</h3><p>Play games with your friends.</p><small>2 PM - Activity Room</small></div>
+            <div><h3>Art Corner</h3><p>Show your art and photography.</p><small>3 PM - Hall</small></div>
+        </div>
+    </section>
+
+    <!-- A simple table shows the event timings -->
+    <section id="schedule">
+        <h2>Schedule</h2>
+        <table>
+            <tr><th>Time</th><th>Event</th></tr>
+            <tr><td>10 AM</td><td>Music Show</td></tr>
+            <tr><td>11 AM</td><td>Dance Battle</td></tr>
+            <tr><td>12 PM</td><td>Code Sprint</td></tr>
+            <tr><td>2 PM</td><td>Gaming</td></tr>
+            <tr><td>3 PM</td><td>Art Corner</td></tr>
+        </table>
+    </section>
+
+    <!-- Small team and sponsor details -->
+    <section>
+        <h2>Organised By</h2>
+        <p>Student Fest Team | Supported by Campus Cafe and Tech Club</p>
+    </section>
+
+    <!-- Basic form layout. It does not save data without a backend. -->
+    <section id="register">
+        <h2>Register Here</h2>
+        <form>
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Select Event</label>
+            <select required>
+                <option value="">Choose an event</option>
+                <option>Music Show</option>
+                <option>Dance Battle</option>
+                <option>Code Sprint</option>
+                <option>Gaming</option>
+                <option>Art Corner</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Campus Vibe Fest 2026 | Made by Students</p>
+    </footer>
+
+</body>
+</html>
